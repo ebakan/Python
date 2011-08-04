@@ -1,0 +1,8 @@
+todo:
+    create html page/html snippets
+    css
+    rss?
+        indicator for viewed already?
+    applicaiton?
+        read count?
+        gui?
