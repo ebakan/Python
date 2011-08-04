@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 import string, sys, os
 inp=' '.join(sys.argv[1:])
 uppercase=False

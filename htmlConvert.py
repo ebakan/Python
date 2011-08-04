@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 def convert(inp):
     encoded=''.join(['&#{0};'.format(ord(i)) for i in inp])
     return '<p>\n{0}\n</p>'.format(encoded.replace('&#10;', '\n</p>\n<p>\n')).replace('<p>\n\n</p>','<br />')

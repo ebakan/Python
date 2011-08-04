@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 #Generates all slots digit numbers which are made up of each number in items
 def gennums(slots, items):
 	if slots==1:

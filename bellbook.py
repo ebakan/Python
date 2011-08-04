@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/env python
 import sys, urllib, urllib2, base64, cookielib
 from BeautifulSoup import BeautifulSoup
 class Voter:

@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/env python
 import sys,urllib,urllib2
 from BeautifulSoup import BeautifulSoup
 class Voter:

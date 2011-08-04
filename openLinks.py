@@ -1,5 +1,4 @@
-#!/usr/bin/python
-
+#!/usr/bin/env python
 import sys, webbrowser
 fileName=sys.argv[1]
 f=open(fileName)

@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import os
 f=open('/users/ebakan/documents/python/names.txt')
 l=f.read().split('\n')

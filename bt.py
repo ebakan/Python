@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 import os
 root="/Users/ebakan/Desktop/"
 folderkey="next"

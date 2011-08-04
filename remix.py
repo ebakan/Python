@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import echonest.audio as audio
 from echonest.selection import fall_on_the
 from echonest.sorting import duration

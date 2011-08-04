@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 class heighway:
     def __init__(self,d,steps):
         self.position=[0,0]

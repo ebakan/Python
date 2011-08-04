@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 def messup():
     import sys
     sys.exit('you tried to screw with my program')

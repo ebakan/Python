@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/env python
 import os
 from mutagen.easyid3 import EasyID3
 class mp3:

@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import os
 n=1
 while 1:

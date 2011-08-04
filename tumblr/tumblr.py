@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import base64, urllib, xml.dom.minidom
 from post import post
 from posts import *

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 import os
 def sort(x):
     names=[' - '.join((i[1],i[4])) for i in [i.split('\t') for i in x.split('\n')[:-2]]]

@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from post import post
 
 class regular(post):

@@ -6,8 +6,8 @@ class hbcli:
         import os
         global os
         #set global variables
-        self.inpath="/Users/ebakan/Desktop/in/"
-        self.outpath="/Users/ebakan/Desktop/out/"
+        self.inpath=os.path.expanduser("~/Desktop/in/")
+        self.outpath=os.path.expanduser("~/Desktop/out/")
         self.outext=".mp4"
         self.options="-X 480 -Y 360"
         #forbidden characters and their replacements

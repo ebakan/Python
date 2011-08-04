@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import urllib.request
 
 def genterm(inp):

@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 def output(x):
     f=[]
     for i in range(2**x):

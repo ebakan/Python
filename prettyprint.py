@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import urllib
 def prettyprint(x):
     levels=0
