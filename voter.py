@@ -7,7 +7,7 @@ class Voter:
         self.params=urllib.urlencode({'destination':'https://mail.bcp.org/exchange/',
                                       'flags':'0',
                                       'username':'eric.bakan12',
-                                      'password':'ZXJpY2Jha2Fu',
+                                      'password':'password',
                                       'SubmitCreds':'Log On',
                                       'trusted':'0'})
         print self.params
