@@ -15,6 +15,7 @@ if __name__=='__main__':
 	if os.path.isfile(path) and f[0]!='.':
 	    with open(path) as data:
 		d=data.read()
-		pattern='#include [<|"](.+)[>|"]'
+		pattern='#include [<"](.+)[>"]'
 		result=re.findall(pattern,d)
+		result=[i.replace("vxWorks.h","$(VXWORKS)") for i in result]
 		print f+" : "+' '.join(result)

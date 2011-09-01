@@ -27,11 +27,11 @@ class imgur:
     def link(self):
         return self.pathfinder(self.response,'upload/links/original').replace("http://","http://i.")
 
-    def post(self,file):
-        if file[:4]=='http':
-            self.params['image']=file
+    def post(self,imgpath):
+        if os.path.isfile(imgpath):
+            self.process(imgpath)
         else:
-            self.process(file)
+            self.params['image']=imgpath
         self.response=self.parseresponse(urllib.urlopen(self.url,urllib.urlencode(self.params)))
         return self.link()
 

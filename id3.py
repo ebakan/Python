@@ -21,21 +21,25 @@ class folder:
         return [mp3(os.path.join(path,file)) for path, dirs, files in os.walk(self.fullpath) for file in files]
 
     def modify(self,mp3):
-	"""
 	name=mp3.name
+	num=mp3.name[:2]
+	name=mp3.name[3:-4]
+	mp3.file['tracknumber']=num
+#mp3.file['title']=name
+	"""
 	dash=name.rindex("-")
-	artist=name[dash+1:-4]
-	title=name[3:dash]
+	artist=name[3:dash-1]
+	title=name[dash+2:-4]
 	mp3.file['artist']=artist
 	mp3.file['title']=title
-	"""
 	title=mp3.file['artist'][0]
 	mp3.file['artist']=mp3.file['title'][0]
 	mp3.file['title']=title
+	"""
 #mp3.file['tracknumber']=num
 #mp3.file['title']=name
 
 if __name__=='__main__':
-    artist="Nujabes"
-    album="First Collection"
+    artist="Steins;Gate"
+    album="Steins;Gate OST 2"
     f=folder(artist,album)
