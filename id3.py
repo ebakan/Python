@@ -25,7 +25,7 @@ class folder:
 	num=mp3.name[:2]
 	name=mp3.name[3:-4]
 	mp3.file['tracknumber']=num
-#mp3.file['title']=name
+        mp3.file['title']=name
 	"""
 	dash=name.rindex("-")
 	artist=name[3:dash-1]
@@ -40,6 +40,6 @@ class folder:
 #mp3.file['title']=name
 
 if __name__=='__main__':
-    artist="Steins;Gate"
-    album="Steins;Gate OST 2"
+    artist="Wolfgang Gartner"
+    album="Electric Daisy Carnival, Vol. 2 (Mixed By Wolfgang Gartner)"
     f=folder(artist,album)
